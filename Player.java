@@ -1,3 +1,14 @@
+/*  This Player class is connected to the Board class, 
+ *  
+ *   This is a blueprint class. 
+ *   It is used to create players and corresponding variables. 
+ *   It also contains setters and getters.
+ *   And a method that implements the players' moves.
+ * 
+ *   Authors: Sergei, Luigi, Valeri, Diego
+ *   Date: 08.1.2024 
+ */
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -5,7 +16,7 @@ public class Player {
     private String playerLabel;
     private char playerSymbol;
     
-    private static Random rand = new Random();
+    private static Random rand = new Random(    );
 
     public Player() {}
 

@@ -1,3 +1,10 @@
+/*   Class Game
+ *   This class contains only static methods. The methods of this class check whether one of the players has won or not.
+ *
+ *   Authors: Sergei, Luigi, Valeri, Diego
+ *   Date: 08.1.2024 
+ */
+
 public class Game {
     public static boolean isThereWinner = false;
 

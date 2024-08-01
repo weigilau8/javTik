@@ -1,3 +1,11 @@
+/*  Board class
+*    This class creates the board of the game
+*    Used Switch statement
+*    This class contains only static methods. It creates a "Board", redraws it after each move and checks the correctness of the moves.
+*    Authors: Sergei, Luigi, Valeri, Diego
+*    Date: 08.1.2024
+*/
+
 public class Board {
 
     public static void printBoard(char[][] board) {
